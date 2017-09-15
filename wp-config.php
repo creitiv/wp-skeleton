@@ -57,7 +57,7 @@ define('LOGGED_IN_SALT',   'put your unique phrase here');
 define('NONCE_SALT',       'put your unique phrase here');
 
 define('WP_CONTENT_DIR', dirname( __FILE__ ) . '/custom');
-define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/custom');
+define('WP_CONTENT_URL', 'http://' . $_SERVER['HTTP_HOST'] . '/wp-skeleton/custom');
 define('UPLOADS', 'assets/uploads');
 
 /**#@-*/
